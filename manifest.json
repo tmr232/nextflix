@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "Nextflix",
+    "version": "1.2",
+  
+    "description": "Adds a next-episode hotkey for Netflix",
+  
+    "content_scripts": [
+      {
+        "matches": ["*://*.netflix.com/*"],
+        "js": ["nextflix.js"]
+      }
+    ],
+
+    "permissions": ["*://*.netflix.com/*"]      
+  }
+  

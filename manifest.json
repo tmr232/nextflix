@@ -24,8 +24,6 @@
         "matches": ["*://*.netflix.com/*"],
         "js": ["nextflix.js"]
       }
-    ],
-
-    "host_permissions": ["*://*.netflix.com/*"]      
+    ]
   }
   

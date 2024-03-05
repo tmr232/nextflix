@@ -12,7 +12,7 @@ document.addEventListener("keyup", (event) => {
     // Get the "next" button and click it
     let nextButton = document.querySelector('[data-uia="next-episode-seamless-button"]') ??
                      document.querySelector('[data-uia="control-next"]');
-    nextButton.click();
+    nextButton?.click();
 });
 
 
